@@ -10,7 +10,7 @@ end
 defmodule Surface.Form.MixProject do
   use Mix.Project
 
-  @version "0.2.0"
+  @version "0.2.1"
   @source_url "https://github.com/surface-ui/surface_form_helpers"
   @homepage_url "https://surface-ui.org"
 
@@ -60,7 +60,7 @@ defmodule Surface.Form.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:surface, "~> 0.12.0"},
+      {:surface, github: "jaman/surface"},
       {:phoenix_html, "~> 4.0"},
       {:phoenix_html_helpers, "~> 1.0"},
       {:surface_catalogue, "~> 0.6.3", only: :dev},
